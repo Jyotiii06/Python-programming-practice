@@ -11,4 +11,5 @@ if b!=a and b!=c:
     sum2+=b
 if c!=a and c!=b:
     sum2+=c
-print("Sum of non-duplicate number is",sum2)
+print("Sum of non-repeated number is",sum2)
+
