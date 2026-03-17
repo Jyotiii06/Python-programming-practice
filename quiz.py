@@ -7,6 +7,7 @@ def quiz_game():
         "Python is programming language? (yes/no)": "yes"
         "Is HTML is markup language? (yes/no)": "yes"
         "Why CSS is used in webpages?": "to style the webpage"
+        "4 + 4 = ?": "8"
         
     }
 
