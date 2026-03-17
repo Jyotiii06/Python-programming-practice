@@ -6,6 +6,7 @@ def quiz_game():
         "Does the sun rise in the east? (yes/no)": "yes"
         "Python is programming language? (yes/no)": "yes"
         "Who is Prime Minister of India?": "Mr Narendra Modi"
+        "Which Dharma is the oldest Dharma on earth?": "Sanatana Dharma"
         
     }
 
