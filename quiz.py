@@ -5,7 +5,7 @@ def quiz_game():
         "2 + 2 = ?": "4",
         "Does the sun rise in the east? (yes/no)": "yes"
         "Python is programming language? (yes/no)": "yes"
-        "Who is Prime Minister of India?": "Mr Narendra Modi"
+        "Is HTML is markup language? (yes/no)": "yes"
         "Which Dharma is the oldest Dharma on earth?": "Sanatana Dharma"
         
     }
