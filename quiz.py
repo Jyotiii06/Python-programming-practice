@@ -4,6 +4,7 @@ def quiz_game():
         "What is the capital of India?": "delhi",
         "2 + 2 = ?": "4",
         "Does the sun rise in the east? (yes/no)": "yes"
+        "Python is programming language? (yes/no)": "yes"
     }
 
     score = 0
