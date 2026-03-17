@@ -6,7 +6,7 @@ def quiz_game():
         "Does the sun rise in the east? (yes/no)": "yes"
         "Python is programming language? (yes/no)": "yes"
         "Is HTML is markup language? (yes/no)": "yes"
-        "Which Dharma is the oldest Dharma on earth?": "Sanatana Dharma"
+        "Why CSS is used in webpages?": "to style the webpage"
         
     }
 
