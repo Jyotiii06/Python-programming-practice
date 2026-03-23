@@ -1,6 +1,6 @@
 def quiz_game():
     questions = {
-        "Who created Python?": "guido",
+        "Who developed Python?": "guido",
         "What is the capital of India?": "delhi",
         "2 + 2 = ?": "4",
         "Does the sun rise in the east? (yes/no)": "yes"
