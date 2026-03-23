@@ -8,6 +8,7 @@ def quiz_game():
         "Is HTML is markup language? (yes/no)": "yes"
         "Why CSS is used in webpages?": "to style the webpage"
         "4 + 4 = ?": "8"
+        "Databases stores data in which format ?":"tabular form"
         
     }
 
