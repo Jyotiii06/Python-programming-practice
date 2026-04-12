@@ -6,8 +6,6 @@ def factorial(n):
 num = int(input("Enter a number: "))
 temp = num
 sum_of_fact = 0
-
-# Calculate sum of factorials of digits
 while temp > 0:
     digit = temp % 10
     sum_of_fact += factorial(digit)
