@@ -3,11 +3,7 @@ def factorial(n):
     for i in range(1, n + 1):
         fact *= i
     return fact
-
-# Input from user
 num = int(input("Enter a number: "))
-
-# Store original number
 temp = num
 sum_of_fact = 0
 
