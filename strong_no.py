@@ -10,8 +10,6 @@ while temp > 0:
     digit = temp % 10
     sum_of_fact += factorial(digit)
     temp //= 10
-
-# Check if strong number
 if sum_of_fact == num:
     print(num, "is a Strong Number")
 else:
