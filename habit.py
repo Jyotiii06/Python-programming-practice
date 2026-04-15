@@ -2,11 +2,9 @@ import sqlite3
 import argparse
 from datetime import date
 
-# connect database
 conn = sqlite3.connect("habits.db")
 cursor = conn.cursor()
 
-# create table
 cursor.execute("""
 CREATE TABLE IF NOT EXISTS habits (
     id INTEGER PRIMARY KEY AUTOINCREMENT,
@@ -18,7 +16,6 @@ CREATE TABLE IF NOT EXISTS habits (
 
 conn.commit()
 
-# add habit
 def add_habit(name):
     today = date.today().isoformat()
     cursor.execute(
@@ -28,7 +25,6 @@ def add_habit(name):
     conn.commit()
     print(f"Habit '{name}' added for today.")
 
-# mark habit done
 def complete_habit(name):
     today = date.today().isoformat()
     cursor.execute(
@@ -38,7 +34,6 @@ def complete_habit(name):
     conn.commit()
     print(f"Habit '{name}' marked as completed.")
 
-# show stats
 def show_stats():
     cursor.execute("SELECT name, date, status FROM habits")
     rows = cursor.fetchall()
