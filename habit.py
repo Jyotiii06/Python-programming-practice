@@ -46,7 +46,6 @@ def show_stats():
         status_text = "Done ✅" if status == 1 else "Pending ❌"
         print(f"{name} | {date_val} | {status_text}")
 
-# CLI argument parser
 parser = argparse.ArgumentParser(description="CLI Habit Tracker")
 
 parser.add_argument("command", choices=["add", "done", "stats"])
