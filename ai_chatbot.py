@@ -1,6 +1,5 @@
 def chatbot():
     print("Hello! I am a simple AI chatbot. Type 'bye' to exit.")
-
     while True:
         user = input("You: ").lower()
 
