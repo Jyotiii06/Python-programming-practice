@@ -42,6 +42,7 @@ accuracy = (correct_words / len(original_words)) * 100
 word_count = len(typed_text.split())
 
 wpm = (word_count / time_taken) * 60
+
 print("\n" + "=" * 50)
 print("RESULT")
 print("=" * 50)
