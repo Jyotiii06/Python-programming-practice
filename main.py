@@ -38,7 +38,9 @@ for i in range(min(len(original_words), len(typed_words))):
         correct_words += 1
 
 accuracy = (correct_words / len(original_words)) * 100
+
 word_count = len(typed_text.split())
+
 wpm = (word_count / time_taken) * 60
 print("\n" + "=" * 50)
 print("RESULT")
